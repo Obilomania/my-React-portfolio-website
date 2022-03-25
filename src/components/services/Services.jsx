@@ -16,23 +16,26 @@ const Services = () => {
 
             <ul className="service__list">
             <li> <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, culpa.</p>
+              <p>Landing Page Designs</p>
             </li>
 
             <li> <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, culpa.</p>
+              <p>Company Websites</p>
             </li>
 
             <li> <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, culpa.</p>
+              <p>E-Commerce Websites</p>
             </li>
 
             <li> <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, culpa.</p>
+              <p>Booking Management Websites</p>
             </li>
 
             <li> <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, culpa.</p>
+              <p>Portfolio Websites</p>
+            </li>
+            <li> <BiCheck className='service__list-icon' />
+              <p>PWebsite Management</p>
             </li>
             </ul>
         </article>
@@ -44,23 +47,19 @@ const Services = () => {
 
             <ul className="service__list">
             <li> <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, culpa.</p>
+              <p>Logo Design</p>
             </li>
 
             <li> <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, culpa.</p>
+              <p>Social Media Banners</p>
             </li>
 
             <li> <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, culpa.</p>
+              <p>Banner Designs, mock ups</p>
             </li>
 
             <li> <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, culpa.</p>
-            </li>
-
-            <li> <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, culpa.</p>
+              <p>Print Designs</p>
             </li>
             </ul>
         </article>
@@ -72,23 +71,23 @@ const Services = () => {
 
             <ul className="service__list">
             <li> <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, culpa.</p>
+              <p>Social Media Account Management</p>
             </li>
 
             <li> <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, culpa.</p>
+              <p>Content Creation</p>
             </li>
 
             <li> <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, culpa.</p>
+              <p>Responding to clients</p>
             </li>
 
             <li> <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, culpa.</p>
+              <p>Designing Attractive Photos to match the post</p>
             </li>
 
             <li> <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, culpa.</p>
+              <p>Run Ads on social media platforms</p>
             </li>
             </ul>
         </article>

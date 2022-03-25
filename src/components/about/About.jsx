@@ -35,7 +35,7 @@ const About = () => {
             </article>
           </div>
           
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi deserunt quaerat molestiae eveniet voluptate. Repudiandae nesciunt itaque, tenetur recusandae officia vel commodi! Aliquid vitae natus iusto soluta dolores, qui rerum!</p>
+          <p>I am a self taught Web Developer and a graphics designer with 10years of experience in graphics design and 2years in web development. I have worked with some SME's, big companies and a hotel. I have built some websites and web app with Javascript, HTML and CSS. Well, there is nothing much to me asides the fact that I am a fun guy and I can be extremely serious when I need to be. I hate getting disappointed so I try my best not to disappoint anyone so when I am given a task or an appointment, I try my best to be punctual and deliver.</p>
           <a href="#contact" className='btn btn-primary'>Talk To Me</a>
         </div>
       </div>
