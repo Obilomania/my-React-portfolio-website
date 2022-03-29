@@ -1,14 +1,20 @@
 import React from 'react'
 import './experience.css'
-import {BsPatchCheckFill} from 'react-icons/bs'
+import { BsPatchCheckFill } from 'react-icons/bs'
+import Bounce from 'react-reveal/Bounce';
+import Slide from 'react-reveal/Bounce';
+
 
 const Experience = () => {
   return (
     <section id='experience'>
+      <Bounce>
+
       <h5> My Skill Set</h5>
       <h2>Experiences</h2>
-
+      </Bounce>
       <div className="container experience__container">
+      <Slide left>
         <div className="experience__frontend">
           <h3> FrontEnd Development</h3>
           <div className="experience__content">
@@ -69,7 +75,8 @@ const Experience = () => {
             </article>
           </div>
         </div>
-
+      </Slide>
+          <Slide right>
         <div className="experience__frontend">
           <h3> Graphics Design</h3>
           <div className="experience__content">
@@ -92,6 +99,7 @@ const Experience = () => {
             
           </div>
         </div>
+        </Slide>
       </div>
     </section>
   )

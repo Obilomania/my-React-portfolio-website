@@ -3,17 +3,24 @@ import './about.css'
 import ME from '../../images/Profile-P.png'
 import { FaAward } from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
+import { VscFolderLibrary } from 'react-icons/vsc'
+import Zoom from 'react-reveal/Zoom';
+import Bounce from 'react-reveal/Bounce';
+
 
 const About = () => {
   return (
     <section id='about'>
+      <Zoom>
       <h5>Get To know</h5>
       <h2>About me</h2>
+      </Zoom>
       <div className="container about__container">
+          <Bounce>
         <div className="about__me">
             <img src={ME} alt="myPhoto" />
         </div>
+            </Bounce>
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
@@ -34,8 +41,9 @@ const About = () => {
               <small>10+ completed</small>
             </article>
           </div>
-          
-          <p>I am a self taught Web Developer and a graphics designer with 10years of experience in graphics design and 2years in web development. I have worked with some SME's, big companies and a hotel. I have built some websites and web app with Javascript, HTML and CSS. Well, there is nothing much to me asides the fact that I am a fun guy and I can be extremely serious when I need to be. I hate getting disappointed so I try my best not to disappoint anyone so when I am given a task or an appointment, I try my best to be punctual and deliver.</p>
+          <Bounce>
+            <p>I am a self taught Web Developer and a graphics designer with 10years of experience in graphics design and 2years in web development. I have worked with some SME's, big companies and a hotel. I have built some websites and web app with Javascript, HTML and CSS. Well, there is nothing much to me asides the fact that I am a fun guy and I can be extremely serious when I need to be. I hate getting disappointed so I try my best not to disappoint anyone so when I am given a task or an appointment, I try my best to be punctual and deliver.</p>
+            </Bounce>
           <a href="#contact" className='btn btn-primary'>Talk To Me</a>
         </div>
       </div>

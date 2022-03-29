@@ -1,6 +1,8 @@
 import React from 'react'
 import { BiCheck } from 'react-icons/bi'
 import './services.css'
+import Zoom from 'react-reveal/Zoom';
+
 
 const Services = () => {
   return (
@@ -9,6 +11,7 @@ const Services = () => {
       <h2>Services</h2>
 
       <div className="container service__container">
+          <Zoom bottom>
         <article className="service">
           <div className="service__head">
             <h3>Web Development</h3>
@@ -35,11 +38,12 @@ const Services = () => {
               <p>Portfolio Websites</p>
             </li>
             <li> <BiCheck className='service__list-icon' />
-              <p>PWebsite Management</p>
+              <p>Website Management</p>
             </li>
             </ul>
-        </article>
-
+          </article>
+          </Zoom>
+<Zoom bottom>
                 <article className="service">
           <div className="service__head">
             <h3>Graphics Design</h3>
@@ -63,7 +67,8 @@ const Services = () => {
             </li>
             </ul>
         </article>
-
+        </Zoom>
+        <Zoom bottom>
                 <article className="service">
           <div className="service__head">
             <h3>Social Media Manager</h3>
@@ -90,7 +95,8 @@ const Services = () => {
               <p>Run Ads on social media platforms</p>
             </li>
             </ul>
-        </article>
+          </article>
+          </Zoom>
       </div>
     </section>
   )
